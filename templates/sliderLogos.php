@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="add-a-delay" <!-- stop sticky -->
 	<div class="grid_12">
 	<br /><br />
 	

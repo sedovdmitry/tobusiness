@@ -17,14 +17,14 @@ gulp.task('default', function () {
     .pipe(minifyCss())
     .pipe(rename('bundle.min.css'))
     .pipe(gulp.dest('app/css/'))
-    //.pipe(notify('Done!'));
+    .pipe(notify('Done!'));
 });
 
  // css for tests
 gulp.task('testCss', function () {
   return gulp.src('css/*.css')
     .pipe(concatCss('bundle.css'))
-    .pipe(gulp.dest('app/css/'))
+    .pipe(gulp.dest('app/css/'));
     //.pipe(notify('Done!'));
 });
 
@@ -80,4 +80,18 @@ gulp.task('scripts', function() {
 	.pipe(jsmin())
 	.pipe(rename('allScripts.min.js'))
 	.pipe(gulp.dest('app/js/'))
+	.pipe(notify('Done!'));
+});
+
+// countUpSettings minify
+gulp.task('countUp', function() {
+	return gulp.src('app/js/countUpSettings.js')
+	.pipe(jsmin())
+	.pipe(rename('countUpSettings.min.js'))
+	.pipe(gulp.dest('app/js/'));
+});
+
+//gulp watch
+gulp.task('watch', function() {
+	gulp.watch('css/*.css', ['default'])
 });

@@ -16,29 +16,6 @@
 
   <link rel='stylesheet prefetch' href='fonts/style.css'>
 
-	<!-- UIkit with the basic style 
-  <link rel="stylesheet" href="css/uikit.css" />
-
-  <!-- UIkit with Gradient style 
-  <link rel="stylesheet" href="css/uikit.gradient.css" />
-
-  <!-- UIkit with Almost flat style 
-  <link rel="stylesheet" href="css/uikit.almost-flat.css" />
-	
-	<!-- Template style 
-	<link rel="stylesheet" href="css/normalize.css">
-  <link rel='stylesheet prefetch' href='css/grid.css'>
-	<link rel='stylesheet prefetch' href='fonts/style.css'>
-	<link rel='stylesheet prefetch' href='css/style.css'>
-	
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-
-	<link rel='stylesheet prefetch' href='css/footer.css'>
-    -->
-
- 
-	
-
     
   </head>
 
@@ -215,6 +192,6 @@
         demo.start();
     }
 	</script>
-	<script defer src="app/js/CountUpSettings.min.js" type="text/javascript"></script>
+	<script defer src="app/js/countUpSettings.min.js" type="text/javascript"></script>
 
 </html>

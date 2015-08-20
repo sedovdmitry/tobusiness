@@ -18,25 +18,6 @@
 
   <link rel='stylesheet prefetch' href='fonts/style.css'>
 
-	<!-- UIkit with the basic style 
-  <link rel="stylesheet" href="css/uikit.css" />
-
-  <!-- UIkit with Gradient style 
-  <link rel="stylesheet" href="css/uikit.gradient.css" />
-
-  <!-- UIkit with Almost flat style 
-  <link rel="stylesheet" href="css/uikit.almost-flat.css" />
-	
-	<!-- Template style 
-	<link rel="stylesheet" href="css/normalize.css">
-  <link rel='stylesheet prefetch' href='css/grid.css'>
-	<link rel='stylesheet prefetch' href='fonts/style.css'>
-	<link rel='stylesheet prefetch' href='css/style.css'>
-	
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-
-	<link rel='stylesheet prefetch' href='css/footer.css'>
-    -->
   </head>
 
   <body>
@@ -137,5 +118,26 @@
 	
   <script defer src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
   <script defer src="app/js/allScripts.min.js" type="text/javascript"></script>
+  <script>
+  // set countUp options
+    var options = {
+        useEasing : true, // toggle easing
+        useGrouping : false, // 1,000,000 vs 1000000
+        separator : '', // character to use as a separator
+        decimal : '.', // character to use as a decimal
+    }
+    var useOnComplete = false;
+    var useEasing = true;
+    var useGrouping = true;
+    
+    // create instance
+    window.onload = function() {
+        // fire animation
+        // var element = document.querySelector('.jumbo');
+        var demo = new countUp('myTargetElement', 0, 1600, 0, 10, options);
+        demo.start();
+    }
+  </script>
+  <script defer src="app/js/countUpSettings.min.js" type="text/javascript"></script>
 	
 </html>
