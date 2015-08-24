@@ -44,8 +44,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -77,8 +77,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -110,8 +110,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -143,8 +143,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -176,8 +176,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -213,8 +213,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -246,8 +246,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -279,8 +279,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -312,8 +312,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -345,8 +345,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -382,8 +382,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -415,8 +415,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -448,8 +448,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -481,8 +481,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -519,8 +519,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -552,8 +552,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -585,8 +585,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -618,8 +618,8 @@
 							<figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
 								<div>
 									<div class="uk-button-group uk-width-1-1">
-										<a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -661,8 +661,8 @@
                         <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
-                                    <a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>
@@ -697,8 +697,8 @@
                         <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
-                                    <a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>
@@ -732,8 +732,8 @@
                         <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
-                                    <a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>
@@ -768,8 +768,8 @@
                         <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
-                                    <a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>
@@ -803,8 +803,8 @@
                         <figcaption class="uk-overlay-panel uk-overlay-bottom uk-overlay-slide-bottom bh-padding-remove">
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
-                                    <a href="shop-cart.html" class="uk-button uk-button-large uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-large uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
+                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>

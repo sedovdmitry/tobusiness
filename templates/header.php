@@ -7,7 +7,7 @@
       </a>
     </li>
     <li>
-      <a href="">
+      <a href="catalog.php">
         <span class="icon-barcode"></span><br />
         <span class="title">Закупки</span>
       </a>

@@ -298,3 +298,26 @@ a:hover {
 .floatright {
   float:right;
 }
+
+.uk-button-largeBalzac {
+  min-height: 40px;
+  padding: 0 15px;
+  line-height: 40px;
+  font-size: 11.5px;
+}
+
+.uk-button:hover,
+.uk-button:focus {
+  background-color: #5E7DAC;
+  color: #ffffff;
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+}
+/* Active */
+.uk-button:active,
+.uk-button.uk-active {
+  background-color: #1E4E95;
+  color: #ffffff;
+}
