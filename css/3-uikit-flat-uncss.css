@@ -107,6 +107,10 @@ ins {
  * Addresses inconsistent and variable font size in all browsers.
  */
 
+small {
+  font-size: 80%;
+}
+
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
@@ -292,35 +296,11 @@ section {
  * 1. Makes grid more robust so that it can be used with other block elements like lists
  */
 
-.uk-grid {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  /* 1 */
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 /*
  * DEPRECATED
  * Micro clearfix
  * Can't use `table` because it creates a 1px gap when it becomes a flex item, only in Webkit
  */
-
-.uk-grid:before,
-.uk-grid:after {
-  content: "";
-  display: block;
-  overflow: hidden;
-}
-
-.uk-grid:after {
-  clear: both;
-}
 
 /*
  * Grid cell
@@ -329,24 +309,9 @@ section {
  * 3. DEPRECATED Using `float` to support IE9
  */
 
-.uk-grid > * {
-  /* 1 */
-  -ms-flex: none;
-  -webkit-flex: none;
-  flex: none;
-  /* 2 */
-  margin: 0;
-  /* 3 */
-  float: left;
-}
-
 /*
  * Remove margin from the last-child
  */
-
-.uk-grid > * > :last-child {
-  margin-bottom: 0;
-}
 
 /* Grid gutter
  ========================================================================== */
@@ -357,28 +322,12 @@ section {
 
 /* Horizontal */
 
-.uk-grid {
-  margin-left: -25px;
-}
-
-.uk-grid > * {
-  padding-left: 25px;
-}
-
 /* Vertical */
 
 /* Large screen and bigger */
 
 @media (min-width: 1220px) {
   /* Horizontal */
-
-  .uk-grid {
-    margin-left: -35px;
-  }
-
-  .uk-grid > * {
-    padding-left: 35px;
-  }
 
   /* Vertical */
 }
@@ -515,10 +464,6 @@ section {
   /* Halves */
 
   /* Thirds */
-
-  .uk-width-medium-1-3 {
-    width: 33.333%;
-  }
 
   /* Quarters */
 
@@ -1344,13 +1289,32 @@ section {
    Component: List
  ========================================================================== */
 
+.uk-list {
+  padding: 0;
+  list-style: none;
+}
+
 /*
  * Micro clearfix to make list more robust
  */
 
+.uk-list > li:before,
+.uk-list > li:after {
+  content: "";
+  display: table;
+}
+
+.uk-list > li:after {
+  clear: both;
+}
+
 /*
  * Remove margin from the last-child
  */
+
+.uk-list > li > :last-child {
+  margin-bottom: 0;
+}
 
 /*
  * Nested lists
@@ -1362,8 +1326,21 @@ section {
 /* Modifier: `uk-list-striped`
  ========================================================================== */
 
+.uk-list-striped > li {
+  padding: 5px 5px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.uk-list-striped > li:nth-of-type(odd) {
+  background: #fafafa;
+}
+
 /* Modifier: `uk-list-space`
  ========================================================================== */
+
+.uk-list-striped > li:first-child {
+  border-top: 1px solid #dddddd;
+}
 
 /* ========================================================================
    Component: Description list
@@ -1937,14 +1914,6 @@ section {
 
 /* Size modifiers
  ========================================================================== */
-
-.uk-button-large {
-  min-height: 40px;
-  padding: 0 15px;
-  line-height: 38px;
-  font-size: 16px;
-  border-radius: 5px;
-}
 
 /* Sub-object `uk-button-group`
  ========================================================================== */

@@ -65,7 +65,7 @@
                     <button class="uk-button uk-button-large">+</button>
                     <div class="uk-button-group">
                       <button class="uk-button uk-button-primary uk-button-large">в корзину</button>
-                      <button class="uk-button uk-button-primary uk-button-large"><i class="uk-icon-star"></i></button>
+                      <button data-uk-tooltip title="В Закладки" class="uk-button uk-button-primary uk-button-large"><i class="uk-icon-star"></i></button>
                     </div>
                   </div>
                 </form>
@@ -100,7 +100,7 @@
                 <div>
                   <div class="uk-button-group uk-width-1-1">
                     <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+                    <a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                   </div>
                 </div>
               </figcaption>
@@ -134,7 +134,7 @@
                 <div>
                   <div class="uk-button-group uk-width-1-1">
                     <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+                    <a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                   </div>
                 </div>
               </figcaption>
@@ -168,7 +168,7 @@
                 <div>
                   <div class="uk-button-group uk-width-1-1">
                     <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+                    <a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                   </div>
                 </div>
               </figcaption>
@@ -202,7 +202,7 @@
                 <div>
                   <div class="uk-button-group uk-width-1-1">
                     <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+                    <a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                   </div>
                 </div>
               </figcaption>
@@ -238,6 +238,7 @@
 
   <script  src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
   <script  src="app/js/allScripts.min.js" type="text/javascript"></script>
+  <script  src="js/components/tooltip.min.js" type="text/javascript"></script>
 
 	<script>
 	// set countUp options

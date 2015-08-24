@@ -28,7 +28,7 @@
   <div class="grid_9">
 
     <?php include('templates/header.php'); ?>
-
+<span data-uk-tooltip title="Bazinga!">Hover me</span>
     <div class="inner_container">
 		<div class="col_1of4">
             <div class="uk-panel">
@@ -45,7 +45,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -78,7 +78,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -111,7 +111,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -144,7 +144,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -177,7 +177,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -214,7 +214,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -247,7 +247,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -280,7 +280,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -313,7 +313,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -346,7 +346,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -383,7 +383,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -416,7 +416,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -449,7 +449,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -482,7 +482,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -520,7 +520,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -553,7 +553,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -586,7 +586,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -619,7 +619,7 @@
 								<div>
 									<div class="uk-button-group uk-width-1-1">
 										<a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-										<a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+										<a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
 									</div>
 								</div>
 							</figcaption>
@@ -662,7 +662,7 @@
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
                                     <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>
@@ -698,7 +698,7 @@
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
                                     <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>
@@ -733,7 +733,7 @@
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
                                     <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>
@@ -769,7 +769,7 @@
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
                                     <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>
@@ -804,7 +804,7 @@
                             <div>
                                 <div class="uk-button-group uk-width-1-1">
                                     <a href="shop-cart.html" class="uk-button uk-button-largeBalzac uk-width-8-10">добавить в корзину</a>
-                                    <a href="shop-wishlist.html" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
+                                    <a href="shop-wishlist.html" data-uk-tooltip title="В Закладки" class="uk-button uk-button-largeBalzac uk-width-2-10"><i class="uk-icon-star"></i></a>
                                 </div>
                             </div>
                         </figcaption>
@@ -851,8 +851,10 @@
   </body>
   
 	
-	<script defer src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-	<script defer src="app/js/allScripts.min.js" type="text/javascript"></script>
+	<script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+	<script  src="app/js/allScripts.min.js" type="text/javascript"></script>
+	<script  src="js/components/tooltip.min.js" type="text/javascript"></script>
+
 	<script>
 	// set countUp options
     var options = {
@@ -873,5 +875,5 @@
         demo.start();
     }
 	</script>
-	<script defer src="app/js/countUpSettings.min.js" type="text/javascript"></script>
+	<script src="app/js/countUpSettings.min.js" type="text/javascript"></script>
 </html>

@@ -116,8 +116,8 @@
   </body>
   
 	
-  <script defer src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-  <script defer src="app/js/allScripts.min.js" type="text/javascript"></script>
+  <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+  <script  src="app/js/allScripts.min.js" type="text/javascript"></script>
   <script>
   // set countUp options
     var options = {
@@ -138,6 +138,6 @@
         demo.start();
     }
   </script>
-  <script defer src="app/js/countUpSettings.min.js" type="text/javascript"></script>
+  <script  src="app/js/countUpSettings.min.js" type="text/javascript"></script>
 	
 </html>
