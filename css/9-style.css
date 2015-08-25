@@ -323,3 +323,199 @@ a:hover {
 }
 
 .uk-tooltip{display:none;position:absolute;z-index:1030;-moz-box-sizing:border-box;box-sizing:border-box;max-width:200px;padding:5px 8px;background:#333;color:rgba(255,255,255,.7);font-size:12px;line-height:18px;text-align:center}.uk-tooltip:after{content:"";display:block;position:absolute;width:0;height:0;border:5px dashed #333}.uk-tooltip-top-left:after,.uk-tooltip-top-right:after,.uk-tooltip-top:after{bottom:-5px;border-top-style:solid;border-bottom:none;border-left-color:transparent;border-right-color:transparent;border-top-color:#333}.uk-tooltip-bottom-left:after,.uk-tooltip-bottom-right:after,.uk-tooltip-bottom:after{top:-5px;border-bottom-style:solid;border-top:none;border-left-color:transparent;border-right-color:transparent;border-bottom-color:#333}.uk-tooltip-bottom:after,.uk-tooltip-top:after{left:50%;margin-left:-5px}.uk-tooltip-bottom-left:after,.uk-tooltip-top-left:after{left:10px}.uk-tooltip-bottom-right:after,.uk-tooltip-top-right:after{right:10px}.uk-tooltip-left:after{right:-5px;top:50%;margin-top:-5px;border-left-style:solid;border-right:none;border-top-color:transparent;border-bottom-color:transparent;border-left-color:#333}.uk-tooltip-right:after{left:-5px;top:50%;margin-top:-5px;border-right-style:solid;border-left:none;border-top-color:transparent;border-bottom-color:transparent;border-right-color:#333}
+
+/* ========================================================================
+   Component: Breadcrumb
+ ========================================================================== */
+/*
+ * 1. Remove default list style
+ * 2. Remove whitespace between child elements when using `inline-block`
+ */
+.uk-breadcrumb {
+  /* 1 */
+  padding: 0;
+  list-style: none;
+  /* 2 */
+  font-size: 0.001px;
+  text-transform: uppercase;
+}
+/* Items
+ ========================================================================== */
+/*
+ * Reset whitespace hack
+ */
+.uk-breadcrumb > li {
+  font-size: 1rem;
+  vertical-align: top;
+}
+.uk-breadcrumb > li,
+.uk-breadcrumb > li > a,
+.uk-breadcrumb > li > span {
+  display: inline-block;
+}
+.uk-breadcrumb > li:nth-child(n+2):before {
+  content: "|";
+  display: inline-block;
+  margin: 0 8px;
+  color: #f1f1f1;
+}
+/*
+ * Disabled
+ */
+.uk-breadcrumb > li:not(.uk-active) > span {
+  color: #a49d9d;
+}
+
+/* BUTTON SHOP
+ * Removes inner padding and border in Firefox 4+.
+ */
+.uk-buttonShop::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/*
+ * 1. Correct inability to style clickable `input` types in iOS.
+ * 2. Remove margins in Chrome, Safari and Opera.
+ * 3. Remove borders for `button`.
+ * 4. Address `overflow` set to `hidden` in IE 8/9/10/11.
+ * 5. Correct `font` properties and `color` not being inherited for `button`.
+ * 6. Address inconsistent `text-transform` inheritance which is only inherit in Firefox and IE
+ * 7. Style
+ * 8. `line-height` is used to create a height
+ * 9. `min-height` is necessary for `input` elements in Firefox and Opera because `line-height` is not working.
+ * 10. Reset button group whitespace hack
+ * 11. Required for `a`.
+ */
+.uk-buttonShop {
+  /* 1 */
+  -webkit-appearance: none;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  border: none;
+  /* 4 */
+  overflow: visible;
+  /* 5 */
+  font: inherit;
+  color: #ffffff;
+  /* 6 */
+  text-transform: none;
+  /* 7 */
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 12px;
+  background: #1E4E95;
+  vertical-align: middle;
+  /* 8 */
+  line-height: 30px;
+  /* 9 */
+  min-height: 30px;
+  /* 10 */
+  font-size: 1rem;
+  /* 11 */
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+.uk-buttonShop:not(:disabled) {
+  cursor: pointer;
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ * 3. Required for `a` elements
+ */
+.uk-buttonShop:hover,
+.uk-buttonShop:focus {
+  background-color: #5E7DAC;
+  color: #ffffff;
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+}
+/* Active */
+.uk-buttonShop:active,
+.uk-buttonShop.uk-active {
+  background-color: #1E4E95;
+  color: #ffffff;
+}
+
+/* BUTTON UPDATE
+ * Removes inner padding and border in Firefox 4+.
+ */
+.uk-buttonUpdate::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/*
+ * 1. Correct inability to style clickable `input` types in iOS.
+ * 2. Remove margins in Chrome, Safari and Opera.
+ * 3. Remove borders for `button`.
+ * 4. Address `overflow` set to `hidden` in IE 8/9/10/11.
+ * 5. Correct `font` properties and `color` not being inherited for `button`.
+ * 6. Address inconsistent `text-transform` inheritance which is only inherit in Firefox and IE
+ * 7. Style
+ * 8. `line-height` is used to create a height
+ * 9. `min-height` is necessary for `input` elements in Firefox and Opera because `line-height` is not working.
+ * 10. Reset button group whitespace hack
+ * 11. Required for `a`.
+ */
+.uk-buttonUpdate {
+  /* 1 */
+  -webkit-appearance: none;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  border: none;
+  /* 4 */
+  overflow: visible;
+  /* 5 */
+  font: inherit;
+  color: #ffffff;
+  /* 6 */
+  text-transform: none;
+  /* 7 */
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 12px;
+  background: #444444;
+  vertical-align: middle;
+  /* 8 */
+  line-height: 30px;
+  /* 9 */
+  min-height: 30px;
+  /* 10 */
+  font-size: 1rem;
+  /* 11 */
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+.uk-buttonUpdate:not(:disabled) {
+  cursor: pointer;
+}
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ * 3. Required for `a` elements
+ */
+.uk-buttonUpdate:hover,
+.uk-buttonUpdate:focus {
+  background-color: #373737;
+  color: #ffffff;
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+}
+/* Active */
+.uk-buttonUpdate:active,
+.uk-buttonUpdate.uk-active {
+  background-color: #303030;
+  color: #ffffff;
+}
