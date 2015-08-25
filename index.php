@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Электронное Снабжение</title>
-    <!-- основной цвет кнопок: 5B93E5
-		 при наведении мышью:  1E4E95 -->
-    
+
 	<link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,15 +46,7 @@
 		<section class="box widget video">
           <img src="images/tutorial.jpg" alt="" />
         </section>
-		<!-- 
-		<section class="box widget find">
-          <input type="text" name="find" placeholder="Find your city place" />
-          <label for="favorite" class="checkbox">
-            <input type="checkbox" id="favorite" name="favorite" />
-            Add to favorites
-          </label>
-          <a href="#" class="btn btn-primary btn-large btn-block">Search</a>
-        </section> -->
+
       </div>
 	  
       <div class="col_2of3">
@@ -74,29 +64,7 @@
           </ul>
         </div>
       </section>
-	  
-	  <!--
-        <article class="box post">
-          <div class="image">
-            <img src="images/start-for-client2.png" />
-          </div>
-           <div class="details">
-            <h2>Программа Электронного Снабжения</h2>
-            <p>Это бесплатная площадка для поставщиков. Следите за спросом. Отвечайте на запросы покупателей (в том числе, в автоматическом режиме). Выставляйте им счета и отгружайте продукцию. Смотрите "Быстрый старт".</p>
-          </div> 
-        </article>
-      </div>
-	  
-	  <div class="col_2of3">
-        <article class="box post">
-          <div class="image">
-            <img src="images/start-for-procurer4.png" />
-          </div>
-          <!-- <div class="details">
-            <h2>Программа Электронного Снабжения</h2>
-            <p>Это бесплатная площадка для поставщиков. Следите за спросом. Отвечайте на запросы покупателей (в том числе, в автоматическом режиме). Выставляйте им счета и отгружайте продукцию. Смотрите "Быстрый старт".</p>
-          </div> 
-        </article>-->
+
 		
       </div>
 
