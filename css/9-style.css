@@ -519,3 +519,15 @@ a:hover {
   background-color: #303030;
   color: #ffffff;
 }
+
+.uk-form select {
+  border-radius: 4px;
+}
+
+icons a:hover{
+  color:#fff;
+}
+
+.uk-form select {
+  color: #999999;
+}

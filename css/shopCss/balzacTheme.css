@@ -33,7 +33,7 @@ a:hover,
  */
 ins {
   background: rgba(0, 0, 0, 0);
-  color: #c66666;
+  color: #5E7DAC;
   text-decoration: none;
 }
 
@@ -5067,7 +5067,7 @@ a:not([class*='uk-button']) > [class*='uk-icon-'] {
 }
 a:not([class*='uk-button']) > [class*='uk-icon-']:hover,
 a:not([class*='uk-button']) > [class*='uk-icon-']:focus {
-  color: #c66666;
+  color: #5E7DAC;
 }
 a:not([class*='uk-button']) > [class*='uk-icon-']:active {
   color: #bf5353;
@@ -9608,7 +9608,7 @@ a.bh-link-primary:focus {
   text-align: center;
   font-size: 30px;
   line-height: 60px;
-  color: #c66666;
+  color: #5E7DAC;
 }
 /*
  * Tag
