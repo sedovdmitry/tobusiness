@@ -2991,6 +2991,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   padding: 4px 6px;
   /* 4 */
   border: 1px solid #dddddd;
+  border-radius: 4px;
   background: #ffffff;
   color: #444444;
   -webkit-transition: all linear 0.2s;
@@ -3102,6 +3103,7 @@ input:not([type]).uk-form-small {
   height: 25px;
   padding: 3px 3px;
   font-size: 12px;
+  border-radius: 4px;
 }
 select.uk-form-large,
 textarea.uk-form-large,
@@ -7928,6 +7930,7 @@ a.uk-thumbnail:focus {
   background: rgba(255, 255, 255, 0.8);
   color: #444444;
   background-clip: padding-box;
+  border-radius: 4px;
 }
 .uk-contrast .uk-form select:focus,
 .uk-contrast .uk-form textarea:focus,

@@ -61,7 +61,7 @@
                                         </ul>
 
                                         <div class="uk-overflow-container">
-                                            <table class="uk-table uk-table-hover uk-text-nowrap">
+                                            <table class="uk-table uk-table-hover uk-text-break">
                                                 <thead>
                                                     <tr>
                                                         <th>Изображение</th>
@@ -73,76 +73,73 @@
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td>
+                                                        <td class="uk-text-center uk-text-middle">
                                                             <a href="shop-singleproduct.html">
                                                                 <img alt="Product Image" height="75" src="images/shop_product-01-1.jpg"
                                                                     width="100">
                                                             </a>
                                                         </td>
-                                                        <td>
+                                                        <td class="uk-text-middle">
                                                             <a class="bh-text-uppercase uk-link-reset" href="shop-singleproduct.html">Авто шина 12.00R20 Кама-310</a><br>
                                                             <span class="uk-text-muted uk-text-small">No. 0977450240002</span>
                                                         </td>
-                                                        <td class="uk-text-center">
+                                                        <td class="uk-text-center uk-text-middle">
                                                             <form class="uk-form"><input class="uk-form-width-mini" placeholder="1" type="number"></form>
                                                         </td>
-                                                        <td class="uk-text-left">
+                                                        <td class="uk-text-left uk-text-middle uk-text-nowrap">
                                                             <div class="uk-form-row">
                                                                 <div class="uk-form-controls uk-form-controls-text">
-                                                                    <input checked id="form-s-r1" name="radio1" type="radio">
-                                                                    <label for="form-s-r1">Новые оригиналы</label><br>
-                                                                    <label><input name="radio1" type="radio">
-                                                                        Аналоги</label><br>
-                                                                    <label><input name="radio1" type="radio">
-                                                                        Восстановленные</label><br>
+                                                                    <input checked id="form-s-r1" name="check1" type="checkbox">
+                                                                    <label data-uk-tooltip title="Узкий поиск. Только новые оригинальные запчасти" for="form-s-r1">Оригинальные запчасти</label><br>
+                                                                    <label data-uk-tooltip title="Средний поиск. Допустимы как оригинальные запчасти, так и аналоги"><input name="check1" type="checkbox">
+                                                                        Аналоги других производителей</label><br>
+                                                                    <label data-uk-tooltip title="Широкий поиск. Допустимы новые оригинальные запчасти, аналоги и восстановленные"><input name="check1" type="checkbox">
+                                                                        Восстановленные после ремонта</label><br>
                                                                 </div>
                                                             </div>
                                                         </td>
-                                                        <td class="uk-text-center">
+                                                        <td class="uk-text-center uk-text-middle">
                                                             <a href="#">
                                                                 <i class="uk-icon-times"></i>
                                                             </a>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>
+                                                        <td class="uk-text-center uk-text-middle">
                                                             <a href="shop-singleproduct.html">
                                                                 <img alt="Product Image" height="75" src="images/shop_product-07-1.jpg"
                                                                     width="100">
                                                             </a>
                                                         </td>
-                                                        <td>
-                                                            <a class="bh-text-uppercase uk-link-reset" href="shop-singleproduct.html">Wayfarer Glasses</a><br>
+                                                        <td class="uk-text-middle">
+                                                            <a class="bh-text-uppercase uk-link-reset" href="shop-singleproduct.html">Цилиндр тормозной главный с вакуумным усилителем в сборе (2 контурная с-ма) YUEJIN 1041/1020, штук</a><br>
                                                             <span class="uk-text-muted uk-text-small">No. 0977450240003</span>
                                                         </td>
-                                                        <td class="uk-text-center">
+                                                        <td class="uk-text-center uk-text-middle">
                                                             <form class="uk-form"><input class="uk-form-width-mini" placeholder="1" type="number"></form>
                                                         </td>
-                                                        <td class="uk-text-left">
+                                                        <td class="uk-text-left uk-text-middle uk-text-nowrap">
                                                             <div class="uk-form-row">
                                                                 <div class="uk-form-controls uk-form-controls-text">
-                                                                    <input checked id="form-s-r2" name="radio2" type="radio">
-                                                                    <label for="form-s-r2">Новые оригиналы</label><br>
-                                                                    <label><input name="radio2" type="radio">
-                                                                        Аналоги</label><br>
-                                                                    <label><input name="radio2" type="radio">
-                                                                        Восстановленные</label><br>
+                                                                    <input checked id="form-s-r2" name="check2" type="checkbox">
+                                                                    <label data-uk-tooltip title="Узкий поиск. Только новые оригинальные запчасти" for="form-s-r2">Оригинальные запчасти</label><br>
+                                                                    <label data-uk-tooltip title="Средний поиск. Допустимы как оригинальные запчасти, так и аналоги"><input  name="check2" type="checkbox">
+                                                                       Аналоги других производителей</label><br>
+                                                                    <label data-uk-tooltip title="Широкий поиск. Допустимы новые оригинальные запчасти, аналоги и восстановленные"><input name="check2" type="checkbox">
+                                                                       Восстановленные после ремонта</label><br>
                                                                 </div>
                                                             </div>
                                                         </td>
-                                                        <td class="uk-text-center">
+                                                        <td class="uk-text-center uk-text-middle">
                                                             <a href="#">
                                                                 <i class="uk-icon-times"></i>
                                                             </a>
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td colspan="12"></td>
-                                                    </tr>
                                                 </tbody>
                                             </table>
                                         </div>
-
+                                        <br />
                                         <form class="uk-form uk-grid" data-uk-margin>
                                             <div class="uk-width-1-1 uk-text-right">
                                                 <button class="uk-buttonUpdate">Обновить корзину</button>
@@ -151,8 +148,9 @@
                                                     Оформить Покупку</a>
                                             </div>
                                         </form>
+                                        <br />
                                     </section>
-
+                                    <br />
                                     <!--
                 <div class="uk-width-medium">
                     <div class="uk-panel uk-panel-box uk-panel-header">
@@ -234,5 +232,6 @@
                 }
             </script>
             <script src="app/js/countUpSettings.min.js" type="text/javascript"></script>
+            <script src="js/components/tooltip.min.js" type="text/javascript"></script>
 
         </html>

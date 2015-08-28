@@ -1,6 +1,6 @@
 <div class="grid_2">
     <section class="box p">
-        <a class="btn btn-block" href="#">
+        <a class="btn btn-block" href="shop-cart.php">
             <i class="uk-icon-shopping-cart"></i>
             Корзина</a>
     </section>
@@ -20,8 +20,7 @@
 
 <div class="grid_2">
     <section class="box p">
-        <a class="btn btn-block" href="#"
-            onclick="UIkit.modal.prompt('Имя:', '', function(val){ UIkit.modal.alert('Привет, '+(val || 'незнакомец')+'!'); });">
+        <a class="btn btn-block" href="login.php">
             <i class="uk-icon-unlock"></i>
             Вход</a>
     </section>

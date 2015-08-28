@@ -28,22 +28,22 @@
             <article class="box post">
                 <div align="left" class="details">
                     <ul class="uk-list uk-list-striped">
-                        <li>АХО
+                        <li>Грузовики и прицепы
                             <span class="floatright">13</span>
                         </li>
-                        <li>ГСМ
+                        <li>Автобусы
                             <span class="floatright">654</span>
                         </li>
-                        <li>Запасные части
+                        <li>Трактора и комбайны
                             <span class="floatright">39000</span>
                         </li>
-                        <li>Инвентаризация
+                        <li>Спецтехника
                             <span class="floatright">45</span>
                         </li>
-                        <li>Инструмент
+                        <li>Двигатели и дизеля
                             <span class="floatright">5674</span>
                         </li>
-                        <li>ЛКМ
+                        <li>Мотоциклы и снегоходы
                             <span class="floatright">6574</span>
                         </li>
                     </ul>

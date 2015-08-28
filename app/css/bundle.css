@@ -10322,6 +10322,10 @@ ins {
  * Addresses inconsistent and variable font size in all browsers.
  */
 
+small {
+  font-size: 80%;
+}
+
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
@@ -10507,35 +10511,11 @@ section {
  * 1. Makes grid more robust so that it can be used with other block elements like lists
  */
 
-.uk-grid {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  /* 1 */
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 /*
  * DEPRECATED
  * Micro clearfix
  * Can't use `table` because it creates a 1px gap when it becomes a flex item, only in Webkit
  */
-
-.uk-grid:before,
-.uk-grid:after {
-  content: "";
-  display: block;
-  overflow: hidden;
-}
-
-.uk-grid:after {
-  clear: both;
-}
 
 /*
  * Grid cell
@@ -10544,24 +10524,9 @@ section {
  * 3. DEPRECATED Using `float` to support IE9
  */
 
-.uk-grid > * {
-  /* 1 */
-  -ms-flex: none;
-  -webkit-flex: none;
-  flex: none;
-  /* 2 */
-  margin: 0;
-  /* 3 */
-  float: left;
-}
-
 /*
  * Remove margin from the last-child
  */
-
-.uk-grid > * > :last-child {
-  margin-bottom: 0;
-}
 
 /* Grid gutter
  ========================================================================== */
@@ -10572,28 +10537,12 @@ section {
 
 /* Horizontal */
 
-.uk-grid {
-  margin-left: -25px;
-}
-
-.uk-grid > * {
-  padding-left: 25px;
-}
-
 /* Vertical */
 
 /* Large screen and bigger */
 
 @media (min-width: 1220px) {
   /* Horizontal */
-
-  .uk-grid {
-    margin-left: -35px;
-  }
-
-  .uk-grid > * {
-    padding-left: 35px;
-  }
 
   /* Vertical */
 }
@@ -10730,10 +10679,6 @@ section {
   /* Halves */
 
   /* Thirds */
-
-  .uk-width-medium-1-3 {
-    width: 33.333%;
-  }
 
   /* Quarters */
 
@@ -11559,13 +11504,32 @@ section {
    Component: List
  ========================================================================== */
 
+.uk-list {
+  padding: 0;
+  list-style: none;
+}
+
 /*
  * Micro clearfix to make list more robust
  */
 
+.uk-list > li:before,
+.uk-list > li:after {
+  content: "";
+  display: table;
+}
+
+.uk-list > li:after {
+  clear: both;
+}
+
 /*
  * Remove margin from the last-child
  */
+
+.uk-list > li > :last-child {
+  margin-bottom: 0;
+}
 
 /*
  * Nested lists
@@ -11577,8 +11541,21 @@ section {
 /* Modifier: `uk-list-striped`
  ========================================================================== */
 
+.uk-list-striped > li {
+  padding: 5px 5px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.uk-list-striped > li:nth-of-type(odd) {
+  background: #fafafa;
+}
+
 /* Modifier: `uk-list-space`
  ========================================================================== */
+
+.uk-list-striped > li:first-child {
+  border-top: 1px solid #dddddd;
+}
 
 /* ========================================================================
    Component: Description list
@@ -12161,14 +12138,6 @@ section {
 
 /* Size modifiers
  ========================================================================== */
-
-.uk-button-large {
-  min-height: 40px;
-  padding: 0 15px;
-  line-height: 38px;
-  font-size: 16px;
-  border-radius: 5px;
-}
 
 /* Sub-object `uk-button-group`
  ========================================================================== */
@@ -13605,6 +13574,10 @@ ins {
  * Addresses inconsistent and variable font size in all browsers.
  */
 
+small {
+  font-size: 80%;
+}
+
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
@@ -13790,35 +13763,11 @@ section {
  * 1. Makes grid more robust so that it can be used with other block elements like lists
  */
 
-.uk-grid {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  /* 1 */
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 /*
  * DEPRECATED
  * Micro clearfix
  * Can't use `table` because it creates a 1px gap when it becomes a flex item, only in Webkit
  */
-
-.uk-grid:before,
-.uk-grid:after {
-  content: "";
-  display: block;
-  overflow: hidden;
-}
-
-.uk-grid:after {
-  clear: both;
-}
 
 /*
  * Grid cell
@@ -13827,24 +13776,9 @@ section {
  * 3. DEPRECATED Using `float` to support IE9
  */
 
-.uk-grid > * {
-  /* 1 */
-  -ms-flex: none;
-  -webkit-flex: none;
-  flex: none;
-  /* 2 */
-  margin: 0;
-  /* 3 */
-  float: left;
-}
-
 /*
  * Remove margin from the last-child
  */
-
-.uk-grid > * > :last-child {
-  margin-bottom: 0;
-}
 
 /* Grid gutter
  ========================================================================== */
@@ -13855,28 +13789,12 @@ section {
 
 /* Horizontal */
 
-.uk-grid {
-  margin-left: -25px;
-}
-
-.uk-grid > * {
-  padding-left: 25px;
-}
-
 /* Vertical */
 
 /* Large screen and bigger */
 
 @media (min-width: 1220px) {
   /* Horizontal */
-
-  .uk-grid {
-    margin-left: -35px;
-  }
-
-  .uk-grid > * {
-    padding-left: 35px;
-  }
 
   /* Vertical */
 }
@@ -14013,10 +13931,6 @@ section {
   /* Halves */
 
   /* Thirds */
-
-  .uk-width-medium-1-3 {
-    width: 33.333%;
-  }
 
   /* Quarters */
 
@@ -14842,13 +14756,32 @@ section {
    Component: List
  ========================================================================== */
 
+.uk-list {
+  padding: 0;
+  list-style: none;
+}
+
 /*
  * Micro clearfix to make list more robust
  */
 
+.uk-list > li:before,
+.uk-list > li:after {
+  content: "";
+  display: table;
+}
+
+.uk-list > li:after {
+  clear: both;
+}
+
 /*
  * Remove margin from the last-child
  */
+
+.uk-list > li > :last-child {
+  margin-bottom: 0;
+}
 
 /*
  * Nested lists
@@ -14860,8 +14793,21 @@ section {
 /* Modifier: `uk-list-striped`
  ========================================================================== */
 
+.uk-list-striped > li {
+  padding: 5px 5px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.uk-list-striped > li:nth-of-type(odd) {
+  background: #fafafa;
+}
+
 /* Modifier: `uk-list-space`
  ========================================================================== */
+
+.uk-list-striped > li:first-child {
+  border-top: 1px solid #dddddd;
+}
 
 /* ========================================================================
    Component: Description list
@@ -15435,14 +15381,6 @@ section {
 
 /* Size modifiers
  ========================================================================== */
-
-.uk-button-large {
-  min-height: 40px;
-  padding: 0 15px;
-  line-height: 38px;
-  font-size: 16px;
-  border-radius: 5px;
-}
 
 /* Sub-object `uk-button-group`
  ========================================================================== */
@@ -17985,7 +17923,7 @@ ins {
   background: 0 0;
 }
 
-.uk-grid:after,
+.uk-list>li:after,
 .uk-panel:after {
   clear: both;
 }
@@ -18014,7 +17952,7 @@ img {
   max-width: 100%;
 }
 
-.uk-grid>*>:last-child,
+.uk-list>li>:last-child,
 .uk-overlay-panel>:last-child,
 .uk-overlay>:first-child,
 .uk-panel>:last-child {
@@ -18047,7 +17985,7 @@ ins {
 }
 
 ins {
-  color: #c66666;
+  color: #5E7DAC;
 }
 
 img {
@@ -18055,48 +17993,6 @@ img {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 0;
-}
-
-.uk-grid {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.uk-grid:after,
-.uk-grid:before {
-  content: "";
-  display: block;
-  overflow: hidden;
-}
-
-.uk-grid>* {
-  -ms-flex: none;
-  -webkit-flex: none;
-  flex: none;
-  margin: 0;
-  float: left;
-  padding-left: 25px;
-}
-
-.uk-grid {
-  margin-left: -25px;
-}
-
-@media (min-width:1220px) {
-  .uk-grid {
-    margin-left: -50px;
-  }
-
-  .uk-grid>* {
-    padding-left: 50px;
-  }
 }
 
 [class*=uk-width] {
@@ -18117,12 +18013,6 @@ img {
   width: 80%;
 }
 
-@media (min-width:768px) {
-  .uk-width-medium-1-3 {
-    width: 33.333%;
-  }
-}
-
 .uk-panel {
   display: block;
   position: relative;
@@ -18132,13 +18022,6 @@ img {
 .uk-panel:before {
   content: "";
   display: table;
-}
-
-.uk-button,
-.uk-button-group,
-.uk-button-group>*,
-.uk-form-icon {
-  display: inline-block;
 }
 
 .uk-panel-badge {
@@ -18153,6 +18036,32 @@ img {
   display: inline-block;
   height: 10px;
   vertical-align: middle;
+}
+
+.uk-list {
+  padding: 0;
+  list-style: none;
+}
+
+.uk-list>li:after,
+.uk-list>li:before {
+  content: "";
+  display: table;
+}
+
+.uk-button,
+.uk-button-group,
+.uk-button-group>*,
+.uk-form-icon {
+  display: inline-block;
+}
+
+.uk-list-striped>li {
+  padding: 5px;
+}
+
+.uk-list-striped>li:nth-of-type(odd) {
+  background: #f9f9f9;
 }
 
 .uk-form input::-moz-focus-inner {
@@ -18196,7 +18105,7 @@ img {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 12px;
-  background: #5E7DAC;
+  background: #444;
   line-height: 30px;
   min-height: 30px;
   font-size: 1rem;
@@ -18224,7 +18133,7 @@ img {
   min-height: 40px;
   padding: 0 15px;
   line-height: 40px;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .uk-button-group {
@@ -18854,4 +18763,490 @@ a:hover {
 
 .floatright {
   float: right;
+}
+
+.uk-button-largeBalzac {
+  min-height: 40px;
+  padding: 0 15px;
+  line-height: 40px;
+  font-size: 11.5px;
+}
+
+.uk-button:hover,
+.uk-button:focus {
+  background-color: #5E7DAC;
+  color: #ffffff;
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+}
+
+/* Active */
+
+.uk-button:active,
+.uk-button.uk-active {
+  background-color: #1E4E95;
+  color: #ffffff;
+}
+
+.uk-tooltip {
+  display: none;
+  position: absolute;
+  z-index: 1030;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 200px;
+  padding: 5px 8px;
+  background: #333;
+  color: rgba(255,255,255,.7);
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.uk-tooltip:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 5px dashed #333;
+}
+
+.uk-tooltip-top-left:after,
+.uk-tooltip-top-right:after,
+.uk-tooltip-top:after {
+  bottom: -5px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #333;
+}
+
+.uk-tooltip-bottom-left:after,
+.uk-tooltip-bottom-right:after,
+.uk-tooltip-bottom:after {
+  top: -5px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #333;
+}
+
+.uk-tooltip-bottom:after,
+.uk-tooltip-top:after {
+  left: 50%;
+  margin-left: -5px;
+}
+
+.uk-tooltip-bottom-left:after,
+.uk-tooltip-top-left:after {
+  left: 10px;
+}
+
+.uk-tooltip-bottom-right:after,
+.uk-tooltip-top-right:after {
+  right: 10px;
+}
+
+.uk-tooltip-left:after {
+  right: -5px;
+  top: 50%;
+  margin-top: -5px;
+  border-left-style: solid;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: #333;
+}
+
+.uk-tooltip-right:after {
+  left: -5px;
+  top: 50%;
+  margin-top: -5px;
+  border-right-style: solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: #333;
+}
+
+/* ========================================================================
+   Component: Breadcrumb
+ ========================================================================== */
+
+/*
+ * 1. Remove default list style
+ * 2. Remove whitespace between child elements when using `inline-block`
+ */
+
+.uk-breadcrumb {
+  /* 1 */
+  padding: 0;
+  list-style: none;
+  /* 2 */
+  font-size: 0.001px;
+  text-transform: uppercase;
+}
+
+/* Items
+ ========================================================================== */
+
+/*
+ * Reset whitespace hack
+ */
+
+.uk-breadcrumb > li {
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+.uk-breadcrumb > li,
+.uk-breadcrumb > li > a,
+.uk-breadcrumb > li > span {
+  display: inline-block;
+}
+
+.uk-breadcrumb > li:nth-child(n+2):before {
+  content: "|";
+  display: inline-block;
+  margin: 0 8px;
+  color: #f1f1f1;
+}
+
+/*
+ * Disabled
+ */
+
+.uk-breadcrumb > li:not(.uk-active) > span {
+  color: #a49d9d;
+}
+
+/* BUTTON SHOP
+ * Removes inner padding and border in Firefox 4+.
+ */
+
+.uk-buttonShop::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Correct inability to style clickable `input` types in iOS.
+ * 2. Remove margins in Chrome, Safari and Opera.
+ * 3. Remove borders for `button`.
+ * 4. Address `overflow` set to `hidden` in IE 8/9/10/11.
+ * 5. Correct `font` properties and `color` not being inherited for `button`.
+ * 6. Address inconsistent `text-transform` inheritance which is only inherit in Firefox and IE
+ * 7. Style
+ * 8. `line-height` is used to create a height
+ * 9. `min-height` is necessary for `input` elements in Firefox and Opera because `line-height` is not working.
+ * 10. Reset button group whitespace hack
+ * 11. Required for `a`.
+ */
+
+.uk-buttonShop {
+  /* 1 */
+  -webkit-appearance: none;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  border: none;
+  /* 4 */
+  overflow: visible;
+  /* 5 */
+  font: inherit;
+  color: #ffffff;
+  /* 6 */
+  text-transform: none;
+  /* 7 */
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 12px;
+  background: #1E4E95;
+  vertical-align: middle;
+  /* 8 */
+  line-height: 30px;
+  /* 9 */
+  min-height: 30px;
+  /* 10 */
+  font-size: 1rem;
+  /* 11 */
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.uk-buttonShop:not(:disabled) {
+  cursor: pointer;
+}
+
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ * 3. Required for `a` elements
+ */
+
+.uk-buttonShop:hover,
+.uk-buttonShop:focus {
+  background-color: #5E7DAC;
+  color: #ffffff;
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+}
+
+/* Active */
+
+.uk-buttonShop:active,
+.uk-buttonShop.uk-active {
+  background-color: #1E4E95;
+  color: #ffffff;
+}
+
+/* BUTTON UPDATE
+ * Removes inner padding and border in Firefox 4+.
+ */
+
+.uk-buttonUpdate::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Correct inability to style clickable `input` types in iOS.
+ * 2. Remove margins in Chrome, Safari and Opera.
+ * 3. Remove borders for `button`.
+ * 4. Address `overflow` set to `hidden` in IE 8/9/10/11.
+ * 5. Correct `font` properties and `color` not being inherited for `button`.
+ * 6. Address inconsistent `text-transform` inheritance which is only inherit in Firefox and IE
+ * 7. Style
+ * 8. `line-height` is used to create a height
+ * 9. `min-height` is necessary for `input` elements in Firefox and Opera because `line-height` is not working.
+ * 10. Reset button group whitespace hack
+ * 11. Required for `a`.
+ */
+
+.uk-buttonUpdate {
+  /* 1 */
+  -webkit-appearance: none;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+  border: none;
+  /* 4 */
+  overflow: visible;
+  /* 5 */
+  font: inherit;
+  color: #ffffff;
+  /* 6 */
+  text-transform: none;
+  /* 7 */
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 12px;
+  background: #444444;
+  vertical-align: middle;
+  /* 8 */
+  line-height: 30px;
+  /* 9 */
+  min-height: 30px;
+  /* 10 */
+  font-size: 1rem;
+  /* 11 */
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.uk-buttonUpdate:not(:disabled) {
+  cursor: pointer;
+}
+
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ * 3. Required for `a` elements
+ */
+
+.uk-buttonUpdate:hover,
+.uk-buttonUpdate:focus {
+  background-color: #373737;
+  color: #ffffff;
+  /* 2 */
+  outline: none;
+  /* 3 */
+  text-decoration: none;
+}
+
+/* Active */
+
+.uk-buttonUpdate:active,
+.uk-buttonUpdate.uk-active {
+  background-color: #303030;
+  color: #ffffff;
+}
+
+.uk-form select {
+  border-radius: 4px;
+}
+
+icons a:hover {
+  color: #fff;
+}
+
+.uk-form select {
+  color: #999999;
+}
+
+/* ТЕСТ, изменяются паддинги
+@media (min-width: 1220px)
+.uk-container {
+max-width: 1200px;
+padding: 0 5px;
+}
+ */
+
+.uk-container {
+  max-width: 1200px;
+  padding: 0 5px;
+}
+
+/* ЗАвершили изменять паддинги  */
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+pre.highlight,
+pre.highlight code {
+  display: block;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8ff;
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .javadoc {
+  color: #998;
+  font-style: italic;
+}
+
+pre .keyword,
+pre .css .rule .keyword,
+pre .winutils,
+pre .javascript .title,
+pre .nginx .title,
+pre .subst,
+pre .request,
+pre .status {
+  color: #333;
+  font-weight: bold;
+}
+
+pre .number,
+pre .hexcolor,
+pre .ruby .constant {
+  color: #099;
+}
+
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula {
+  color: #d14;
+}
+
+pre .title,
+pre .id {
+  color: #900;
+  font-weight: bold;
+}
+
+pre .javascript .title,
+pre .lisp .title,
+pre .clojure .title,
+pre .subst {
+  font-weight: normal;
+}
+
+pre .class .title,
+pre .haskell .type,
+pre .vhdl .literal,
+pre .tex .command {
+  color: #458;
+  font-weight: bold;
+}
+
+pre .tag,
+pre .tag .title,
+pre .rules .property,
+pre .django .tag .keyword {
+  color: #000080;
+  font-weight: normal;
+}
+
+pre .attribute,
+pre .variable,
+pre .lisp .body {
+  color: #008080;
+}
+
+pre .regexp {
+  color: #009926;
+}
+
+pre .class {
+  color: #458;
+  font-weight: bold;
+}
+
+pre .symbol,
+pre .ruby .symbol .string,
+pre .lisp .keyword,
+pre .tex .special,
+pre .prompt {
+  color: #990073;
+}
+
+pre .built_in,
+pre .lisp .title,
+pre .clojure .built_in {
+  color: #0086b3;
+}
+
+pre .preprocessor,
+pre .pi,
+pre .doctype,
+pre .shebang,
+pre .cdata {
+  color: #999;
+  font-weight: bold;
+}
+
+pre .deletion {
+  background: #fdd;
+}
+
+pre .addition {
+  background: #dfd;
+}
+
+pre .diff .change {
+  background: #0086b3;
+}
+
+pre .chunk {
+  color: #aaa;
 }

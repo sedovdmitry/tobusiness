@@ -2828,7 +2828,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   width: 100%;
 }
 /* Size modifiers
- * Higher specificity needed to override defaults
+ * Higher specificity needed to override defaults 
  ========================================================================== */
 select.uk-form-small,
 textarea.uk-form-small,
@@ -2837,6 +2837,7 @@ input:not([type]).uk-form-small {
   height: 25px;
   padding: 0 3px;
   font-size: 12px;
+  border-radius: 4px;
 }
 select.uk-form-large,
 textarea.uk-form-large,
