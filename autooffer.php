@@ -51,6 +51,7 @@
                                                     placeholder="(обычно модель автомобиля)" type="text"/>
                                                 <input id="catid" name="catid" type="hidden" value="{CATID}"/>
                                             </div>
+                                            <span class="uk-text-muted uk-text-small">Начните вводить название</span>
                                         </div>
                                     </div>
                                     <div class="uk-form-row">
@@ -61,6 +62,7 @@
                                                 <input placeholder="Прокладка ЯМЗ колпака ФГОМ силикон" class="uk-form-width-large" id="itemsrch" type="text"/>
                                                 <input id="itemid" name="itemid" type="hidden"/>
                                             </div>
+                                            <span class="uk-text-muted uk-text-small">подсказка появится автоматически</span>
                                         </div>
                                     </div>
                                     <div class="uk-form-row">
@@ -106,7 +108,7 @@
                                     </div>
                                     <br/>
                                     <form class="uk-form uk-grid" data-uk-margin>
-                                        <div class="uk-width-1-1 uk-text-center">
+                                        <div style="margin-left: 116px">
                                             <button class="uk-buttonUpdate">
                                                 <i class="uk-icon-times"></i>
                                                 Отмена</button>

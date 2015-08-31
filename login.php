@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
         <title>Электронное Снабжение</title>
 
-        <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic'
+            rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"
+            type="text/css">
         <meta content="width=device-width, initial-scale=1" name="viewport">
 
         <!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> -->
@@ -39,15 +41,14 @@
                                 <form class="uk-form uk-form-horizontal"
                                     style="margin-left: 50px;margin-right: 200px;">
 
-                                    
-
                                     <h2>Вход</h2>
 
                                     <div class="uk-form-row">
                                         <label class="uk-form-label" for="form-h-ip">Логин</label>
                                         <div class="uk-form-controls">
                                             <div class="uk-form-icon">
-                                                <i class="uk-icon-user"></i><input class="uk-form-width-large" id="form-h-ip" placeholder="логин (не email)" type="text">
+                                                <i class="uk-icon-user"></i><input class="uk-form-width-large" id="form-h-ip" placeholder="логин (не email)"
+                                                    type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -61,16 +62,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <br />
-
+                                    <br/>
 
                                 </form>
                                 <div style="margin-left: 215px">
-                                <p>
-                                  <a class="btn btn-primary btn-large" type="button">Войти</a>
-                                  <a class="btn btn-large" type="button"><i class="uk-icon-user-plus"></i> Регистрация</a>
-                                </p>
-                              </div>
+                                <br/>
+
+                                    <button class="uk-buttonShop">
+                                        <i class="uk-icon-unlock"></i>
+                                        Войти</button>
+                                    <a class="uk-buttonUpdate uk-button-primary" href="shop-checkout.html">
+                                        <i class="uk-icon-user-plus"></i>
+                                        Регистрация</a>
+                                </div>
+                                <br/>
                             </section>
 
                         </div>
@@ -87,7 +92,8 @@
 
     </body>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+        type="text/javascript"></script>
     <script src="app/js/allScripts.min.js" type="text/javascript"></script>
     <script>
         // set countUp options

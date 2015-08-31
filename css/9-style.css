@@ -559,8 +559,44 @@ padding: 0 5px;
 
 .uk-container {
   max-width: 1200px;
-  padding: 0 5px;
+  padding: 0 0px;
 }
  
 /* ЗАвершили изменять паддинги  */
 
+/* offers.php отступ сверху для кнопки Отправить Предложение */
+#catalog-orders button{
+    margin-top: 49px;
+}
+#action-info{
+    display: inline-block;
+    margin-left: 10px;
+    height: 16px;
+}
+span.action-info-load{
+    padding-left: 20px;
+    background-image: url('../../../api/images/load-16.gif');
+}
+span.action-info-load,span.action-info-done,span.action-info-error{
+    background-position: left;
+    background-repeat: no-repeat;
+}
+span.action-info-done{
+    color: green;
+}
+span.action-info-error{
+    color: red;
+}
+#invoice-info{
+    display: block;
+}
+#invoice-info a{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.uk-form-row {
+  padding-top: 10px;
+}

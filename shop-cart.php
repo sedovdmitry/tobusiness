@@ -140,14 +140,14 @@
                                             </table>
                                         </div>
                                         <br />
-                                        <form class="uk-form uk-grid" data-uk-margin>
-                                            <div class="uk-width-1-1 uk-text-right">
-                                                <button class="uk-buttonUpdate">Обновить корзину</button>
+                                        
+                                            <div align="center">
+                                                <button class="uk-buttonUpdate"><i class="uk-icon-spinner"></i> Обновить корзину</button>
                                                 <a class="uk-buttonShop uk-button-primary" href="shop-checkout.html">
                                                     <i class="uk-icon-check"></i>
                                                     Оформить Покупку</a>
                                             </div>
-                                        </form>
+                                        
                                         <br />
                                     </section>
                                     <br />

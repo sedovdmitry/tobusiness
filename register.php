@@ -55,8 +55,8 @@
                                         <label class="uk-form-label" for="form-h-ip">Пароль</label>
                                         <div class="uk-form-controls">
                                             <div class="uk-form-icon">
-                                                <i class="uk-icon-lock"></i><input class="uk-form-width-large" id="form-h-ip" placeholder="(не менее 5 символов)"
-                                                    type="password">
+                                                <i class="uk-icon-lock"></i><input class="uk-form-width-large" id="form-h-ip"
+                                                    placeholder="(не менее 5 символов)" type="password">
                                             </div>
                                         </div>
                                     </div>
@@ -85,8 +85,8 @@
                                         <label class="uk-form-label" for="form-h-ip">Организация</label>
                                         <div class="uk-form-controls">
                                             <div class="uk-form-icon">
-                                                <i class="uk-icon-bank"></i><input class="uk-form-width-large" id="form-h-ip" placeholder='ООО "Мировая Запчасть"' 
-                                                    type="text">
+                                                <i class="uk-icon-bank"></i><input class="uk-form-width-large" id="form-h-ip"
+                                                    placeholder='ООО "Мировая Запчасть"' type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -142,9 +142,14 @@
                                     </div>
                                     <br/>
                                     <div style="margin-left: 215px">
-                                        <a class="btn btn-primary btn-large" href="#">Зарегистрироваться</a>
+
+                                        <button class="uk-buttonShop btn-large">
+                                            <i class="uk-icon-user-plus"></i>
+                                            Регистрация</button>
                                     </div>
-                                    <br />
+
+                                    <br/>
+                                    <br/>
                                 </form>
 
                             </section>

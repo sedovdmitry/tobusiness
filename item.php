@@ -65,11 +65,11 @@
                                     <p></p>
                                     <form class="uk-form uk-grid">
                                         <div class="uk-width-1-1" data-uk-margin="">
-                                            <button class="uk-button uk-button-large">-</button>
+                                            <button class="uk-buttonUpdate uk-button-large">-</button>
                                             <input class="uk-form-large uk-form-width-mini" placeholder="1" type="number">
-                                            <button class="uk-button uk-button-large">+</button>
+                                            <button class="uk-buttonUpdate uk-button-large">+</button>
                                             <div class="uk-button-group">
-                                                <button class="uk-button uk-button-primary uk-button-large">в корзину</button>
+                                                <button class="uk-buttonUpdate uk-button-primary uk-button-large">в корзину</button>
                                                 <button class="uk-button uk-button-primary uk-button-large" data-uk-tooltip
                                                     title="В Закладки">
                                                     <i class="uk-icon-star"></i>
