@@ -6,7 +6,6 @@
         <div class="details">
             <h2>Название вашей компании</h2>
             <p>Саратов</p>
-            <a class="btn btn-primary btn-block btn-large" href="profile.php">профиль</a>
         </div>
     </section>
     <section class="box widget weather">

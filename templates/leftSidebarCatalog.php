@@ -6,7 +6,6 @@
         <div class="details">
             <h2>Название вашей компании</h2>
             <p>Саратов</p>
-            <a class="btn btn-primary btn-block btn-large" href="profile.php">профиль</a>
         </div>
     </section>
     <div class="uk-panel" data-uk-sticky="{top:20,boundary:'#add-a-delay'}">

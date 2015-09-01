@@ -45,7 +45,7 @@ gulp.task('uncssUikit', function() {
 gulp.task('uncssFlat', function() {
 	return gulp.src('css/uikit/uikit.almost-flat.css')
 	.pipe(uncss({
-		html: ['html/index.html', 'html/catalog.html', 'html/register.html']
+		html: ['html/index.html', 'html/catalog.html', 'html/register.html', 'html/offers.html', 'html/item.html']
 	}))
 	.pipe(rename('3-uikit-flat-uncss.css'))
 	.pipe(gulp.dest('css/'));
@@ -55,7 +55,7 @@ gulp.task('uncssFlat', function() {
 gulp.task('uncssGradient', function() {
 	return gulp.src('css/uikit/uikit.gradient.css')
 	.pipe(uncss({
-		html: ['html/index.html', 'html/catalog.html', 'html/register.html']
+		html: ['html/index.html', 'html/catalog.html', 'html/register.html', 'html/offers.html', 'html/item.html']
 	}))
 	.pipe(rename('2-uikit-gradient-uncss.css'))
 	.pipe(gulp.dest('css/'));

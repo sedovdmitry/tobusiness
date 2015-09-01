@@ -1,3 +1,23 @@
+<style>
+.locations {
+  padding: 10px 5px;
+} 
+.locations .details {
+  margin-top: 0px;
+}
+</style>
+
+<div class="grid_3">
+    <section class="box widget locations">
+        <div class="avatar">
+            <img width="100px" height="auto" src="images/logo-1.jpg"/>
+        </div>
+        <div class="details">
+            <h2>ООО "Название вашей компании"</h2>
+        </div>
+    </section>
+</div>
+
 <div class="grid_2">
     <section class="box p">
         <a class="btn btn-block" href="shop-cart.php">
@@ -6,7 +26,7 @@
     </section>
 </div>
 
-<div class="grid_6">
+<div class="grid_3">
     <section class="box p"></section>
 </div>
 
