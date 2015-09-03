@@ -78,7 +78,7 @@
                                                         <th class="uk-text-center uk-text-middle">Дата</th>
                                                         <th class="uk-text-center uk-text-middle">Состояние</th>
                                                         <th class="uk-text-center uk-text-middle">Комментарий</th>
-                                                        <th class="uk-text-center uk-text-middle">Позиций</th>
+                                                        <th class="uk-text-center uk-text-middle" data-uk-tooltip title="Количество ">Позиций</th>
                                                         <th class="uk-text-center uk-text-middle">Кол-во предложений</th>
                                                         <th class="uk-text-center uk-text-middle">Действия</th>
                                                     </tr>
