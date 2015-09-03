@@ -884,3 +884,14 @@ span.action-info-error{
 label i {
   color: #999999;
 }
+
+button.w-delete {
+  color: #D8503C;
+} 
+
+button.w-delete:hover {
+  color: red;
+} 
+.uk-button-link {
+color: #5E7DAC;
+}
