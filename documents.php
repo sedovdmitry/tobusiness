@@ -2,7 +2,7 @@
 <html >
     <head>
         <meta charset="UTF-8">
-        <title>Электронное Снабжение</title>
+        <title>Мои закупки | Электронное Снабжение</title>
 
         <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic'
             rel='stylesheet' type='text/css'>
@@ -71,7 +71,7 @@
 
                                             <!-- -->
 
-                                            <table class="uk-table uk-table-striped" id="w-table">
+                                            <table class="uk-table uk-table-striped uk-table-hover" id="w-table">
                                                 <thead>
                                                     <tr>
                                                         <th class="uk-text-center uk-text-middle">№</th>
@@ -88,8 +88,8 @@
                                                         <td class="uk-text-center uk-text-middle">19</td>
                                                         <td class="uk-text-center uk-text-middle">26.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1" >
+                                                            <b data-uk-tooltip title="Заявка расценена">расценена</b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
                                                             <a href='http://new.tobusiness.ru/tender/document/19.html'></a>
@@ -109,11 +109,11 @@
                                                         <td class="uk-text-center uk-text-middle">18</td>
                                                         <td class="uk-text-center uk-text-middle">21.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-warning d-status-1" >
+                                                            <b data-uk-tooltip title="Заявка закрыта и помещена архив">архив</b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
-                                                            <a href='http://new.tobusiness.ru/tender/document/18.html'>Это обычный комментарий</a>
+                                                            Это обычный комментарий, не ссылка
                                                         </td>
                                                         <td class="uk-text-center uk-text-middle">1</td>
                                                         <td class="uk-text-center uk-text-middle">1</td>
@@ -130,8 +130,9 @@
                                                         <td class="uk-text-center uk-text-middle">17</td>
                                                         <td class="uk-text-center uk-text-middle">21.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle d-status-1" >
+                                                            <b class="uk-text-muted" data-uk-tooltip title="Вашу заявку видят поставщики, подписанные на категорию, соответствующую вашей детали">в расценке </b><br/>
+                                                            <b class="uk-text-primary" data-uk-tooltip title="Вам выставили счет">выставлен счет </b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
                                                             <a href='http://new.tobusiness.ru/tender/document/17.html'></a>
@@ -151,8 +152,8 @@
                                                         <td class="uk-text-center uk-text-middle">16</td>
                                                         <td class="uk-text-center uk-text-middle">19.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle d-status-1" >
+                                                            <b class="uk-text-bold" data-uk-tooltip title="Вы запросили счет у поставщика. Ожидайте выставления счета.">запрошен счет</b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
                                                             <a href='http://new.tobusiness.ru/tender/document/16.html'></a>
@@ -172,8 +173,8 @@
                                                         <td class="uk-text-center uk-text-middle">15</td>
                                                         <td class="uk-text-center uk-text-middle">18.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle  d-status-1">
+                                                            <b class="uk-text-warning" data-uk-tooltip title="Заявка закрыта и помещена архив">архив</b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
                                                             <a href='http://new.tobusiness.ru/tender/document/15.html'></a>
@@ -193,8 +194,8 @@
                                                         <td class="uk-text-center uk-text-middle">14</td>
                                                         <td class="uk-text-center uk-text-middle">18.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle  d-status-1" >
+                                                            <b class="uk-text-warning" data-uk-tooltip title="Заявка закрыта и помещена архив">архив </b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
                                                             <a href='http://new.tobusiness.ru/tender/document/14.html'></a>
@@ -214,8 +215,8 @@
                                                         <td class="uk-text-center uk-text-middle">13</td>
                                                         <td class="uk-text-center uk-text-middle">18.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle  d-status-1" >
+                                                            <b class="uk-text-warning" data-uk-tooltip title="Заявка закрыта и помещена архив">архив </b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
                                                             <a href='http://new.tobusiness.ru/tender/document/13.html'></a>
@@ -235,11 +236,11 @@
                                                         <td class="uk-text-center uk-text-middle">12</td>
                                                         <td class="uk-text-center uk-text-middle">18.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle d-status-1" >
+                                                            <b class="uk-text-primary" data-uk-tooltip title="Найдены предложения по вашей заявке">выставлен счет </b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
-                                                            <a href='http://new.tobusiness.ru/tender/document/12.html'></a>
+                                                            комметарий
                                                         </td>
                                                         <td class="uk-text-center uk-text-middle">1</td>
                                                         <td class="uk-text-center uk-text-middle">1</td>
@@ -256,11 +257,11 @@
                                                         <td class="uk-text-center uk-text-middle">10</td>
                                                         <td class="uk-text-center uk-text-middle">18.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle d-status-1">
+                                                            <b class="uk-text-danger" data-uk-tooltip title="Поставщик выставил вам счет">запрошен счет </b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
-                                                            <a href='http://new.tobusiness.ru/tender/document/10.html'></a>
+                                                            
                                                         </td>
                                                         <td class="uk-text-center uk-text-middle">1</td>
                                                         <td class="uk-text-center uk-text-middle">2</td>
@@ -279,11 +280,12 @@
                                                         <td class="uk-text-center uk-text-middle">8</td>
                                                         <td class="uk-text-center uk-text-middle">17.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle d-status-1">
+                                                            <b class="uk-text-success" data-uk-tooltip title="Вашу заявку видят поставщики, подписанные на категорию, соответствующую вашей детали">расценена </b><br/>
+                                                            <b class="uk-text-primary" data-uk-tooltip title="Найдены предложения по вашей заявке">выставлен счет </b><br/>
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
-                                                            <a href='http://new.tobusiness.ru/tender/document/8.html'></a>
+                                                            ждем еще предложений
                                                         </td>
                                                         <td class="uk-text-center uk-text-middle">2</td>
                                                         <td class="uk-text-center uk-text-middle">2</td>
@@ -300,11 +302,11 @@
                                                         <td class="uk-text-center uk-text-middle">7</td>
                                                         <td class="uk-text-center uk-text-middle">17.08.2015</td>
                                                         <td
-                                                            class="uk-text-center uk-text-nowrap uk-text-middle uk-text-success d-status-1">
-                                                            <b>в расценке</b>
+                                                            class="uk-text-center uk-text-nowrap uk-text-middle d-status-1" >
+                                                            <b class="uk-text-primary" uk-text-primary data-uk-tooltip title="Найдены предложения по вашей заявке">выставлен счет </b><br/>                                                            
                                                         </td>
                                                         <td class="uk-text-left uk-text-break uk-text-middle">
-                                                            <a href='http://new.tobusiness.ru/tender/document/7.html'></a>
+                                                            показать главному 
                                                         </td>
                                                         <td class="uk-text-center uk-text-middle">2</td>
                                                         <td class="uk-text-center uk-text-middle">2</td>

@@ -895,3 +895,16 @@ button.w-delete:hover {
 .uk-button-link {
 color: #5E7DAC;
 }
+
+/* invoices.php */ 
+
+table.catalog-invoice-usercard label {
+    display: inline-block;
+    width: 150px;
+    color: #666;
+    font-size: 14px;
+}
+
+table.catalog-invoice-usercard span {
+    padding-left: 20px;
+}

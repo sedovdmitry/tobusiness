@@ -2,14 +2,13 @@
 <html >
     <head>
         <meta charset="UTF-8">
-        <title>Электронное Снабжение</title>
+        <title>Корзина | Электронное Снабжение</title>
 
         <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic'
             rel='stylesheet' type='text/css'>
         <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"
             type="text/css">
 
-        <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <meta content="width=device-width, initial-scale=1" name="viewport">
 
         <!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> -->
@@ -99,9 +98,9 @@
                                                             </div>
                                                         </td>
                                                         <td class="uk-text-center uk-text-middle">
-                                                            <a href="#">
-                                                                <i class="uk-icon-times"></i>
-                                                            </a>
+                                                            <button class="w-delete uk-button-link" data-uk-tooltip rel="8" title="Удалить">
+                                                                <i class="uk-icon-times uk-icon-medium"></i>
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -131,9 +130,9 @@
                                                             </div>
                                                         </td>
                                                         <td class="uk-text-center uk-text-middle">
-                                                            <a href="#">
-                                                                <i class="uk-icon-times"></i>
-                                                            </a>
+                                                            <button class="w-delete uk-button-link" data-uk-tooltip rel="8" title="Удалить">
+                                                                <i class="uk-icon-times uk-icon-medium"></i>
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                 </tbody>

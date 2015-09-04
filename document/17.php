@@ -11,13 +11,13 @@
 
         <meta content="width=device-width, initial-scale=1" name="viewport">
 
-        <!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> -->
-        <link href="images/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+        <!-- <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon"> -->
+        <link href="../images/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
 
         <!-- bundle style -->
-        <link href="app/css/bundle.min.css" rel="stylesheet"/>
+        <link href="../app/css/bundle.min.css" rel="stylesheet"/>
 
-        <link href='fonts/style.css' rel='stylesheet prefetch'>
+        <link href='../fonts/style.css' rel='stylesheet prefetch'>
 
     </head>
 
@@ -26,7 +26,7 @@
         <div class="container">
             <div class="page-wrap">
 
-                <?php include('templates/firstHeaderDemand.php'); ?>
+                <?php include('../templates/firstHeaderDemand.php'); ?>
 
                 <div class="grid_9">
                     <style>
@@ -38,7 +38,7 @@
                             margin-top: 40px;
                         }
                     </style>
-                    <?php include('templates/header.php'); ?>
+                    <?php include('../templates/header.php'); ?>
 
                 </div>
 
@@ -90,7 +90,7 @@
                                                     <tr rel="9">
                                                         <td rel="9" class="uk-text-center uk-text-middle">
                                                             <a href="shop-singleproduct.html">
-                                                                <img alt="Product Image" height="75" src="images/shop_product-01-1.jpg"
+                                                                <img alt="Product Image" height="75" src="../images/shop_product-01-1.jpg"
                                                                     width="100">
                                                             </a>
                                                         </td>
@@ -118,7 +118,7 @@
                                                     <tr rel="7">
                                                         <td rel="7" class="uk-text-center uk-text-middle">
                                                             <a href="shop-singleproduct.html">
-                                                                <img alt="Product Image" height="75" src="images/shop_product-07-1.jpg"
+                                                                <img alt="Product Image" height="75" src="../images/shop_product-07-1.jpg"
                                                                     width="100">
                                                             </a>
                                                         </td>
@@ -271,9 +271,9 @@
             </div>
         </div>
 
-        <?php include('templates/sliderLogos.php'); ?>
+        <?php include('../templates/sliderLogos.php'); ?>
 
-        <?php include('templates/footer.php'); ?>
+        <?php include('../templates/footer.php'); ?>
 
     </body>
 

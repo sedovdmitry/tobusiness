@@ -2,16 +2,13 @@
 <html >
     <head>
         <meta charset="UTF-8">
-        <title>Электронное Снабжение</title>
+        <title>Список автоответов | Электронное Снабжение</title>
 
         <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic'
             rel='stylesheet' type='text/css'>
         <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"
             type="text/css">
 
-        <link
-            href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic'
-            rel='stylesheet' type='text/css'>
         <meta content="width=device-width, initial-scale=1" name="viewport">
 
         <!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> -->

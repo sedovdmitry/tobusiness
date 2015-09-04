@@ -2,7 +2,7 @@
 <html >
     <head>
         <meta charset="UTF-8">
-        <title>Электронное Снабжение</title>
+        <title>Регистрация | Электронное Снабжение</title>
 
         <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic'
             rel='stylesheet' type='text/css'>
