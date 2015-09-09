@@ -72,6 +72,17 @@ gulp.task('uncssBalzac', function() {
 	.pipe(gulp.dest('css/'));
 });
 
+//uncss Mobile jQuery
+gulp.task('uncssMobile', function() {
+	return gulp.src('css/jquerymobile/jquery.mobile-1.4.5.min.css')
+	.pipe(uncss({
+		html: ['html/offersview.html']
+	}))
+	.pipe(minifyCss())
+	.pipe(rename('0-jqueryMobile.css'))
+	.pipe(gulp.dest('css/'));
+});
+
 // js
 
 gulp.task('scripts', function() {

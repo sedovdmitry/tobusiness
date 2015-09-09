@@ -908,3 +908,9 @@ table.catalog-invoice-usercard label {
 table.catalog-invoice-usercard span {
     padding-left: 20px;
 }
+
+/* offersview.php */ 
+
+table#order-card p {
+    padding-left: 20px;
+}
